@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-
+import { VscTrash } from 'react-icons/vsc';
 function Todo() {
 	return (
 		<>
@@ -15,7 +14,9 @@ function Todo() {
 					type="date"
 					className="p-2 border rounded"
 				/>
-				<button className=" px-10 py-2 bg-green-500 rounded-md"></button>
+				<button className=" px-10 py-2 bg-green-500 rounded-md">
+					<VscTrash className="text-4xl" />
+				</button>
 			</div>
 		</>
 	);
